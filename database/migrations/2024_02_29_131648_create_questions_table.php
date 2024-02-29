@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('questions', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->enum('category', ['Mijn lichaam', 'Mijn gevoelens en gedachten', 'Nu en later', 'Lekker in je vel zitten', 'Meedoen', 'Dagelijks leven']);
+            $table->enum('category', ['Lichaamfuncties', 'Mentaal welbevinden', 'Zingeving', 'Kwaliteit van leven', 'Meedoen', 'Dagelijks functioneren']);
             $table->timestamps();
         });
     }
