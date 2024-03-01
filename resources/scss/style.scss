@@ -1,3 +1,10 @@
 @import "homepage.scss";
+@import "profielcheck.scss";
 
 @import "layouts/header.scss";
+@import "layouts/footer.scss";
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}

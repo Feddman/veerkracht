@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\FaqController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,8 +22,10 @@ Route::get('/home', function () {
     return view('home');
 }); 
 
-Route::get('/faq', function () {
-    return view('faq');
+Route::get('/faq', [FaqController::class, 'index'])->name('faq');
+
+Route::get('/profielcheck', function () {
+    return view('/profielcheck');
 });
 
 Route::get('/dashboard', function () {

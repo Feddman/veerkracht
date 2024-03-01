@@ -29,5 +29,37 @@
                 </div>
             </div>
         </div>
+        <div class="body-blok1">
+            <div class="container">
+                <div class="body-blok1-content">
+                    <h1 class="body-blok1-title">Ontdek jouw perfecte zorgpakket</h1>
+                    <p class="body-blok1-text">Ontdek jouw perfecte zorgpakket met onze slimme vragenlijst. Als jouw persoonlijke compagnon begeleiden we je naar de ideale zorginstellingen die passen bij jouw unieke behoeften. Welkom bij een zorgervaring die echt om jou draait.</p>
+                </div>
+            </div>
+        </div>
     </body>
+    <footer>
+        <div class="container">
+            <div class="contact">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h2>CONTACT</h2>
+                        <div class="contact-email">
+                            <img class="email-png" src="{{ asset('storage/img/mail.png') }}">
+                            <p>veerkracht@gmail.com</p>
+                        </div>
+                        <div class="contact-telefoon">
+                            <img class="tel-png" src="{{ asset('storage/img/tel.png') }}">
+                            <p>06 25 839954</p>
+                        </div>
+                    </div>
+                    <div class="social-icons">
+                        <img src="{{ asset('storage/img/x-logo.png') }}" alt="">
+                        <img src="{{ asset('storage/img/insta-logo.png') }}" alt="">
+                        <img src="{{ asset('storage/img/facebook-logo.png') }}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </html>
