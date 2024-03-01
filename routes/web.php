@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
+use App\Models\Question;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,7 +27,8 @@ Route::get('/faq', function () {
 });
 
 Route::get('/profielcheck', function () {
-    return view('/profielcheck');
+    $questions = Question::all();
+    return view('/profielcheck')->with('questions', $questions);
 });
 
 Route::get('/dashboard', function () {

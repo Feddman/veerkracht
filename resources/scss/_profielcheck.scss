@@ -1,4 +1,29 @@
-.container{
-    max-width: 80%;
-    margin: 0 auto;
-} 
+.profielchecktop {
+  padding-bottom: 100px;
+  .profielcheck-two-column {
+    display: flex;
+    align-items: center;
+  }
+
+  .profielcheck-column {
+    flex:1;
+  }
+
+  .profielcheck-image {
+    max-width: 100%;
+    height: auto;
+    padding-left: 20px;
+  }
+}
+
+.center-content {
+  text-align: center;
+}
+
+.left-aligned {
+  text-align: left;
+}
+
+  
+
+  
