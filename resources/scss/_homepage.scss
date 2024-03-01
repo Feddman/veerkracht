@@ -60,3 +60,30 @@ body{
         }
     }
 }
+footer{
+    background-color: #69B27D;
+    .container{
+        max-width: 80%;
+        margin: 0 auto;
+        .contact{
+            display: flex;
+            flex-direction: column;
+            .contact-content{
+                        
+                display: flex;
+                justify-content: space-between;
+    
+                .contact-info{
+                    .contact-email{
+                        display: flex;
+                        flex-direction: row;
+                    }
+                    .contact-telefoon{
+                        display: flex;
+                        flex-direction: row;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -24,6 +24,10 @@ Route::get('/home', function () {
 
 Route::get('/faq', [FaqController::class, 'index'])->name('faq');
 
+Route::get('/profielcheck', function () {
+    return view('/profielcheck');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
