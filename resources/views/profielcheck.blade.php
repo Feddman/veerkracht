@@ -22,16 +22,16 @@
     <div class="container">
         <div class="center-content">
             <h1 class="left-aligned">Het check formulier</h1>
-            <form method="post" action="" id="quizForm">
+            <form action="{{route('profielcheck.store')}}" method="POST">
                 @csrf
                 @php $questionIndex = 0; @endphp
                 @foreach($questions as $question)
                     <div class="question-container" id="question{{ $questionIndex }}" style="display: {{ $questionIndex == 0 ? 'block' : 'none' }}">
                         <h3>{{ $question['title'] }}</h3>
                         @for ($i = 1; $i <= 10; $i++)
-                            <label>
+                            <label class="radio-label">
                                 <input type="radio" name="question_{{ $questionIndex }}" value="{{ $i }}">
-                                {{ $i }}
+                                <span class="radio-button">{{ $i }}</span>
                             </label>
                         @endfor
                     </div>
@@ -46,6 +46,7 @@
         </div>
     </div>
 </section>
+
 
 <script>
     var currentQuestion = 0;
