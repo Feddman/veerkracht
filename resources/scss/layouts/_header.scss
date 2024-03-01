@@ -1,0 +1,29 @@
+header{
+    .container{
+        max-width: 80%;
+        margin: 0 auto;
+        .header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+        .navbar{
+            display: flex;
+            gap: 50px;
+            text-transform: uppercase;
+            a{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 17px;
+                text-decoration: none;
+                color: #000;
+                font-weight: 500;
+                &:hover{
+                    color: #01B3EA;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
