@@ -24,4 +24,28 @@
         @yield('content')
     </div>
 </body>
+<footer>
+    <div class="container">
+        <div class="contact">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>CONTACT</h2>
+                    <div class="contact-email">
+                        <img class="email-png" src="{{ asset('storage/img/mail.png') }}">
+                        <p>veerkracht@gmail.com</p>
+                    </div>
+                    <div class="contact-telefoon">
+                        <img class="tel-png" src="{{ asset('storage/img/tel.png') }}">
+                        <p>06 25 839954</p>
+                    </div>
+                </div>
+                <div class="social-icons">
+                    <img src="{{ asset('storage/img/x-logo.png') }}" alt="">
+                    <img src="{{ asset('storage/img/insta-logo.png') }}" alt="">
+                    <img src="{{ asset('storage/img/facebook-logo.png') }}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 </html>

@@ -1,0 +1,73 @@
+footer{
+    background-color: #69B27D;
+    .container{
+        max-width: 80%;
+        margin: 0 auto;
+        .contact{
+            display: flex;
+            flex-direction: column;
+            .contact-content{
+                        
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-top: 40px;
+                padding-bottom: 40px;
+                .contact-info{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    h2{
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 21px;
+                        font-weight: 600;
+                        line-height: 25.6px;
+                        color: #fff;
+                    }
+                    .contact-email{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        img.email-png{
+                            width: 23px;
+                            height: 15px;
+                        }
+                        p{
+                            font-family: 'Nunito', sans-serif;
+                            font-size: 18px;
+                            font-weight: 600;
+                            line-height: 21.82px;
+                            color: #fff;
+                            margin: 0px;
+                            margin-left: 10px;
+                        }
+                    }
+                    .contact-telefoon{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        img.tel-png{
+                            width: 20px;
+                            height: 20px;
+                        }
+                        p{
+                            font-family: 'Nunito', sans-serif;
+                            font-size: 18px;
+                            font-weight: 600;
+                            line-height: 21.82px;
+                            color: #fff;
+                            margin: 0px;
+                            margin-left: 10px;
+                        
+                        }
+                    }
+                }
+                .social-icons{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 28px;
+                }
+            }
+        }
+    }
+}
