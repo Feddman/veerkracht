@@ -3,8 +3,9 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
-use Illuminate\Database\Seeder;
+use App\Models\Faq;
 use App\Models\Question;
+use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -202,6 +203,22 @@ class DatabaseSeeder extends Seeder
     Question::create([
         'title' => 'Ik weet hoe ik zonodig hulp kan krijgen van officiele instanties.',
         'category' => 'Dagelijks functioneren'
+    ]);
+
+    Faq::create([
+        'question' => 'Wat doet dit?.',
+    ]);
+
+    Faq::create([
+        'question' => 'Waarom is dit nodig?',
+    ]);
+
+    Faq::create([
+        'question' => 'Hoe werkt dit?',
+    ]);
+
+    Faq::create([
+        'question' => 'Wanneer is dit klaar?',
     ]);
 
     }
