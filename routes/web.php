@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\FaqController;
+use App\Models\Question;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,7 +26,8 @@ Route::get('/home', function () {
 Route::get('/faq', [FaqController::class, 'index'])->name('faq');
 
 Route::get('/profielcheck', function () {
-    return view('/profielcheck');
+    $questions = Question::all();
+    return view('/profielcheck')->with('questions', $questions);
 });
 
 Route::get('/dashboard', function () {
