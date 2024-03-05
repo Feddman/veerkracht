@@ -1,34 +1,3 @@
-
-
-header{
-    .container{
-        max-width: 80%;
-        margin: 0 auto;
-        .header{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px 0;
-        }
-        .navbar{
-            display: flex;
-            gap: 50px;
-            text-transform: uppercase;
-            a{
-                font-family: 'Montserrat', sans-serif;
-                font-size: 17px;
-                text-decoration: none;
-                color: #000;
-                font-weight: 500;
-                &:hover{
-                    color: #01B3EA;
-                    text-decoration: underline;
-                }
-            }
-        }
-    }
-}
 body{
     padding: 0;
     margin: 0;
@@ -59,75 +28,185 @@ body{
             }
         }
     }
-}
-footer{
-    background-color: #69B27D;
-    .container{
-        max-width: 80%;
-        margin: 0 auto;
-        .contact{
+    .body-blok1{
+        padding-top: 100px;
+        .body-blok1-content{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap:60px;
+            .body-blok1-content-links{
+                width: 50%;
+                h1{
+                    font-family: 'Montserrat', sans-serif;  
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 24.38px;
+                    color: #000;
+                }
+            }
+            .body-blok1-content-rechts{
+                width: 50%;
+                p{
+                    font-family: 'Nunito', sans-serif;  
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 24.55px;
+                    color: #000;
+                }
+            }
+        }
+    }
+    .body-blok2{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        .body-blok2-content{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap:60px;
+            .body-blok2-content-links{
+                width: 50%;
+            }
+            .body-blok2-content-rechts{
+                width: 50%;
+                h1{
+                    font-family: 'Montserrat', sans-serif;  
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 24.38px;
+                    color: #000;
+                }
+                p{
+                    font-family: 'Nunito', sans-serif;  
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 24.55px;
+                    color: #000;
+                }
+            }
+        }
+    }
+    .body-blok3{
+        .body-blok3-content{
             display: flex;
             flex-direction: column;
-            .contact-content{
-                        
+            justify-content: center;
+            gap:20px;
+            .iph-model{
                 display: flex;
                 justify-content: space-between;
+                flex-direction: row;
                 align-items: center;
-                padding-top: 40px;
-                padding-bottom: 40px;
-                .contact-info{
-                    display: flex;
-                    flex-direction: column;
-                    gap: 10px;
-                    h2{
-                        font-family: 'Montserrat', sans-serif;
-                        font-size: 21px;
-                        font-weight: 600;
-                        line-height: 25.6px;
-                        color: #fff;
-                    }
-                    .contact-email{
-                        display: flex;
-                        flex-direction: row;
-                        align-items: center;
-                        img.email-png{
-                            width: 23px;
-                            height: 15px;
-                        }
-                        p{
-                            font-family: 'Nunito', sans-serif;
-                            font-size: 18px;
-                            font-weight: 600;
-                            line-height: 21.82px;
-                            color: #fff;
-                            margin: 0px;
-                            margin-left: 10px;
-                        }
-                    }
-                    .contact-telefoon{
-                        display: flex;
-                        flex-direction: row;
-                        align-items: center;
-                        img.tel-png{
-                            width: 20px;
-                            height: 20px;
-                        }
-                        p{
-                            font-family: 'Nunito', sans-serif;
-                            font-size: 18px;
-                            font-weight: 600;
-                            line-height: 21.82px;
-                            color: #fff;
-                            margin: 0px;
-                            margin-left: 10px;
-                        
-                        }
-                    }
+            }
+            p{
+                width: 860px;
+                text-align: center;
+                align-self: center;
+                font-family: 'Nunito', sans-serif;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 27.55px;
+                color: #000;
+            }
+        }
+    }
+    .body-blok4{
+        padding-top: 100px;
+        .body-blok4-content{
+            display: flex;
+            flex-direction: row;    
+            align-items: center;
+            gap:60px;
+            .body-blok4-content-links{
+                width: 50%;
+                h1{
+                    font-family: 'Montserrat', sans-serif;  
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 24.38px;
+                    color: #000;
                 }
-                .social-icons{
-                    display: flex;
-                    flex-direction: row;
-                    gap: 28px;
+                img{
+                    width: 100%;
+                }
+            }
+            .body-blok4-content-rechts{
+                width: 50%;
+                p{
+                    font-family: 'Nunito', sans-serif;  
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 24.55px;
+                    color: #000;
+                }
+            }
+        }
+    }
+    .body-blok5{
+        padding-top: 100px;
+        .body-blok5-content{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap:130px;
+            .body-blok5-content-links{
+                width: 50%;
+                h1{
+                    font-family: 'Montserrat', sans-serif;  
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 24.38px;
+                    color: #000;
+                }
+                img{
+                    width: 100%;
+                
+                }
+            }
+            .body-blok5-content-rechts{
+                width: 50%;
+                p{
+                    font-family: 'Nunito', sans-serif;  
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 24.55px;
+                    color: #000;
+                }
+            }
+        }
+    }
+    .body-blok6{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        .body-blok6-content{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap:130px;
+            .body-blok6-content-links{
+                width: 50%;
+                h1{
+                    font-family: 'Montserrat', sans-serif;  
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 24.38px;
+                    color: #000;
+                }
+                p{
+                    font-family: 'Nunito', sans-serif;  
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 24.55px;
+                    color: #000;
+                }
+            }
+            .body-blok6-content-rechts{
+                width: 50%;
+                
+                img{
+                    width: 100%;
+                
                 }
             }
         }
