@@ -18,11 +18,10 @@ use App\Models\Question;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/home', function () {
     return view('home');
-}); 
+});
+
+Route::get('/faq', [FaqController::class, 'index'])->name('faq.index');
 
 Route::get('/profielcheck', function () {
     $questions = Question::all();
