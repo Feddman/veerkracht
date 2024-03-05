@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\FaqController;
+use App\Http\Controllers\QuestionsController;
+use App\Models\Question;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,11 +24,13 @@ Route::get('/home', function () {
     return view('home');
 }); 
 
-Route::get('/faq', [FaqController::class, 'index'])->name('faq');
-
 Route::get('/profielcheck', function () {
-    return view('/profielcheck');
+    $questions = Question::all();
+    return view('/profielcheck')->with('questions', $questions);
 });
+
+Route::post('/profielcheck/store', [QuestionsController::class, 'store'])
+->name('profielcheck.store');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

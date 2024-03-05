@@ -1,4 +1,61 @@
-.container{
-    max-width: 80%;
-    margin: 0 auto;
-} 
+.profielchecktop {
+  .profielcheck-two-column {
+    display: flex;
+    align-items: center;
+  }
+
+  .profielcheck-column {
+    flex:1;
+  }
+
+  .profielcheck-image {
+    max-width: 100%;
+    height: auto;
+    padding-left: 20px;
+  }
+}
+
+.center-content {
+  text-align: center;
+}
+
+.left-aligned {
+  text-align: left;
+}
+
+.profielcheckform {
+  padding: 100px 0px
+}
+
+.radio-label {
+  display: inline-block;
+  margin-right: 10px;
+
+  input[type="radio"] {
+      display: none;
+  }
+
+  .radio-button {
+      display: inline-block;
+      width: 20px;
+      padding: 15px;
+      border: 2px solid #ccc;
+      border-radius: 5%;
+      text-align: center;
+      line-height: 20px;
+      cursor: pointer;
+  }
+
+  input[type="radio"]:checked + .radio-button {
+      background-color: #69B27D;
+      color: #fff;
+      border-color: #69B27D;
+  }
+  .radio-button:hover {
+    background-color: #69b27c50;
+    color: #fff;
+    border-color: #69b27c50;
+}
+}
+
+
