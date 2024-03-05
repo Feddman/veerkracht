@@ -21,6 +21,8 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/faq', [FaqController::class, 'index'])->name('faq.index');
+
 Route::get('/profielcheck', function () {
     $questions = Question::all();
     return view('/profielcheck')->with('questions', $questions);
