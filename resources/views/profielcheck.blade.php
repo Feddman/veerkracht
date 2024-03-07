@@ -10,7 +10,7 @@
             @php $questionIndex = 0; @endphp
             @foreach($questions as $question)
                 <div class="question-container" id="question{{$questionIndex}}" style="display: {{ $questionIndex == 0 ? 'block' : 'none' }}">
-                    <h3>{{ $question['title'] }}</h3>
+                    <p>{{ $question['title'] }}</p>
                     @for ($i = 1; $i <= 10; $i++)
                         <label class="radio-label">
                             <input type="radio" name="question_{{ $questionIndex }}" value="{{ $i }}">
@@ -22,15 +22,15 @@
             @endforeach
 
             <div id="emailContainer" style="display: none;">
-                <input type="text" id="name" name="name" placeholder="Naam" required>
-                <input type="text" id="lastname" name="lastname" placeholder="Achternaam" required>
-
-
                 <select id="salutation" name="salutation" required>
                     <option value="" disabled selected hidden>Aanhef</option>
                     <option value="Dhr.">Dhr.</option>
                     <option value="Mevr.">Mevr.</option>
                 </select>
+                <input type="text" id="name" name="name" placeholder="Naam" required>
+                <input type="text" id="lastname" name="lastname" placeholder="Achternaam" required>
+
+
 
                 <input type="email" id="email" name="email" placeholder="E-mailadres" required>
                 <input type="text" id="phone_number" name="phone_number" placeholder="Telefoonnummer" required>

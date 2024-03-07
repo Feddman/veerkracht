@@ -44,5 +44,6 @@ class QuestionsController extends Controller
         }
 
         // VOOR LARS ZET HIER DE RETURN NEER
+        return redirect()->route('results.index', ['id' => $user->id]);
     }
 }
