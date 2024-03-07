@@ -10,7 +10,7 @@
             @php $questionIndex = 0; @endphp
             @foreach($questions as $question)
                 <div class="question-container" id="question{{$questionIndex}}" style="display: {{ $questionIndex == 0 ? 'block' : 'none' }}">
-                    <h3>{{ $question['title'] }}</h3>
+                    <p>{{ $question['title'] }}</p>
                     @for ($i = 1; $i <= 10; $i++)
                         <label class="radio-label">
                             <input type="radio" name="question_{{ $questionIndex }}" value="{{ $i }}">
