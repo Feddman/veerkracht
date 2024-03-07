@@ -20,6 +20,9 @@ use App\Models\Question;
 Route::get('/', function () {
     return view('home');
 });
+Route::get('/extra-informatie', function () {
+    return view('info');
+});
 
 Route::get('/faq', [FaqController::class, 'index'])->name('faq.index');
 

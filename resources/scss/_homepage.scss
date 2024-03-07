@@ -38,6 +38,10 @@ body{
             gap:60px;
             .body-blok1-content-links{
                 width: 50%;
+                
+            }
+            .body-blok1-content-rechts{
+                width: 50%;
                 h1{
                     font-family: 'Montserrat', sans-serif;  
                     font-size: 20px;
@@ -46,9 +50,6 @@ body{
                     color: #000;
                     text-align: left;
                 }
-            }
-            .body-blok1-content-rechts{
-                width: 50%;
                 p{
                     font-family: 'Nunito', sans-serif;  
                     font-size: 18px;
@@ -123,6 +124,13 @@ body{
             gap:60px;
             .body-blok4-content-links{
                 width: 50%;
+                
+                img{
+                    width: 100%;
+                }
+            }
+            .body-blok4-content-rechts{
+                width: 50%;
                 h1{
                     font-family: 'Montserrat', sans-serif;  
                     font-size: 20px;
@@ -131,12 +139,6 @@ body{
                     color: #000;
                     text-align: left;
                 }
-                img{
-                    width: 100%;
-                }
-            }
-            .body-blok4-content-rechts{
-                width: 50%;
                 p{
                     font-family: 'Nunito', sans-serif;  
                     font-size: 18px;

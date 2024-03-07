@@ -1,0 +1,21 @@
+.info-body-blok1{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .body-blok2-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        padding-top: 20px;
+        .functie{
+            border: 1px solid #000;
+            padding: 20px;
+            h2{
+                font-size: 18px;
+            }
+        }
+    }
+}
+img.iph{
+    width: 300px !important;
+    height: 300px !important;
+}

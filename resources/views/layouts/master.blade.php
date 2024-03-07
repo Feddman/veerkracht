@@ -15,6 +15,7 @@
                 <a href="/">Home</a>
                 <a href="/profielcheck">Profielcheck</a>
                 <a href="/dashboard">Dashboard</a>
+                <a href="/extra-informatie">Extra informatie</a>
                 <a href="/inloggen">Inloggen</a>
             </div>
         </div>
