@@ -1,13 +1,14 @@
 @import "homepage.scss";
 @import "profielcheck.scss";
 @import "faq.scss";
-@import "informatie.scss";
+@import "plattegrond.scss";
+// @import "informatie.scss";
 
 @import "layouts/header.scss";
-@import "layouts/footer.scss";
+@import "layouts/footer.scss";  
 
 .container{
-    max-width: 80%;
+    max-width: 80%; 
     margin: 0 auto;
 }
 h1{

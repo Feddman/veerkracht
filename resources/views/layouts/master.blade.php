@@ -14,6 +14,7 @@
             <div class="navbar">
                 <a href="/">Home</a>
                 <a href="/profielcheck">Profielcheck</a>
+                <a href="/plattegrond">plattegrond</a>
                 <a href="/dashboard">Dashboard</a>
                 <a href="/inloggen">Inloggen</a>
             </div>
