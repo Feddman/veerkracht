@@ -5,6 +5,8 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\FaqController;
 use App\Http\Controllers\QuestionsController;
 use App\Models\Question;
+use App\Models\User;
+use App\Models\Answer;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,7 +34,12 @@ Route::post('/profielcheck/store', [QuestionsController::class, 'store'])
 ->name('profielcheck.store');
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    $answers = Answer::all();
+    $users = User::all();
+    return view('dashboard')->with([
+        'answers' => $answers,
+        'users' => $users
+    ]);
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
