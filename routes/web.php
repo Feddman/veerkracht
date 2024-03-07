@@ -31,6 +31,10 @@ Route::get('/profielcheck', function () {
 Route::post('/profielcheck/store', [QuestionsController::class, 'store'])
 ->name('profielcheck.store');
 
+Route::get('/plattegrond', function () {
+    return view('plattegrond');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

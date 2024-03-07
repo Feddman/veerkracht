@@ -1,6 +1,8 @@
 @import "homepage.scss";
 @import "profielcheck.scss";
 @import "faq.scss";
+@import "plattegrond.scss";
+@import "informatie.scss";
 
 @import "layouts/header.scss";
 @import "layouts/footer.scss";
@@ -8,4 +10,21 @@
 .container{
     max-width: 80%;
     margin: 0 auto;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+}
+p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    color: #000;
 }
