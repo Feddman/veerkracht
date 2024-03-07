@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\FaqController;
 use App\Http\Controllers\QuestionsController;
+use App\Http\Controllers\ResultsController;
 use App\Models\Question;
 
 /*
@@ -22,6 +23,8 @@ Route::get('/', function () {
 });
 
 Route::get('/faq', [FaqController::class, 'index'])->name('faq.index');
+
+Route::get('/results/{id}', [ResultsController::class, 'index'])->name('results.index');
 
 Route::get('/profielcheck', function () {
     $questions = Question::all();
