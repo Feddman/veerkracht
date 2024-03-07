@@ -15,11 +15,12 @@
         <div class="container">
             <div class="body-blok1-content">
                 <div class="body-blok1-content-links">
-                    <h1 class="body-blok1-title">Voorzieningen en informatie</h1>
                     <img src="{{ asset('storage/img/plaatje1.png') }}" alt="">
 
                 </div>
                 <div class="body-blok1-content-rechts">
+                    <h1 class="body-blok1-title">Voorzieningen en informatie</h1>
+
                     <p class="body-blok1-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         <br><br>
                         reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -62,11 +63,11 @@
         <div class="container">
             <div class="body-blok4-content">
                 <div class="body-blok4-content-links">
-                    <h1 class="body-blok4-title">Voorzieningen en informatie</h1>
                     <img src="{{ asset('storage/img/plaatje3.png') }}" alt="">
 
                 </div>
                 <div class="body-blok4-content-rechts">
+                    <h1 class="body-blok4-title">Voorzieningen en informatie</h1>
                     <p class="body-blok4-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         <br><br>
                         reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>

@@ -2,29 +2,6 @@
 
 @section('content')
 
-    {{-- <script src="https://cdn.tailwindcss.com"></script> --}}
-
-    
-    {{-- <div class="container">
-        <div class="mb-8">
-            <h1>Results</h1>
-            <p>Here are the results</p>
-        </div>
-
-        <div class="result-container">
-            <div class="card">
-                <div>
-                    <h2>Result 1</h2>
-                    <p>Some description</p>
-                    <p>Email</p>
-                </div>
-                <div class="icon">
-                    <img class="bg-white cursor-pointer p-1 rounded-sm" src="{{ asset('storage/img/chevron_down.svg') }}" alt="">
-                </div>
-            </div>
-        </div>
-    </div> --}}
-
     <div class="container">
         <h1>Resultaten overzicht</h1>
 
@@ -46,8 +23,23 @@
                 </div>
             </div>
         </div>
+
+        <div class="container">
+            <div class="body-blok1-content">
+                
+                <div class="body-blok1-content-rechts">
+                    <h1 class="body-blok1-title">IPH-model</h1>
+
+                    <p class="body-blok1-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <br><br>
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="body-blok1-content-links"  style="text-align: center">
+                    <img src="{{ asset('storage/img/IPH-model.png') }}" alt="">
+                </div>
+            </div>
+        </div>
     </div>
-    
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
