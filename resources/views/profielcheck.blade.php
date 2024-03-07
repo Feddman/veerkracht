@@ -22,15 +22,15 @@
             @endforeach
 
             <div id="emailContainer" style="display: none;">
-                <input type="text" id="name" name="name" placeholder="Naam" required>
-                <input type="text" id="lastname" name="lastname" placeholder="Achternaam" required>
-
-
                 <select id="salutation" name="salutation" required>
                     <option value="" disabled selected hidden>Aanhef</option>
                     <option value="Dhr.">Dhr.</option>
                     <option value="Mevr.">Mevr.</option>
                 </select>
+                <input type="text" id="name" name="name" placeholder="Naam" required>
+                <input type="text" id="lastname" name="lastname" placeholder="Achternaam" required>
+
+
 
                 <input type="email" id="email" name="email" placeholder="E-mailadres" required>
                 <input type="text" id="phone_number" name="phone_number" placeholder="Telefoonnummer" required>
