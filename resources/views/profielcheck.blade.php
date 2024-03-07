@@ -33,7 +33,7 @@
                 </select>
 
                 <input type="email" id="email" name="email" placeholder="E-mailadres" required>
-                <input type="text" id="phone" name="phone" placeholder="Telefoonnummer" required>
+                <input type="text" id="phone_number" name="phone_number" placeholder="Telefoonnummer" required>
             </div>
 
             <div class="button-container">
