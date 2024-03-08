@@ -6,6 +6,8 @@ use App\Http\Controllers\FaqController;
 use App\Http\Controllers\QuestionsController;
 use App\Http\Controllers\ResultsController;
 use App\Models\Question;
+use App\Models\User;
+use App\Models\Answer;
 
 /*
 |--------------------------------------------------------------------------
@@ -42,7 +44,12 @@ Route::get('/plattegrond', function () {
 });
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    $answers = Answer::all();
+    $users = User::paginate(3);
+    return view('dashboard')->with([
+        'answers' => $answers,
+        'users' => $users
+    ]);
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
