@@ -35,7 +35,7 @@ Route::post('/profielcheck/store', [QuestionsController::class, 'store'])
 
 Route::get('/dashboard', function () {
     $answers = Answer::all();
-    $users = User::all();
+    $users = User::paginate(3);
     return view('dashboard')->with([
         'answers' => $answers,
         'users' => $users
