@@ -20,6 +20,7 @@ class UserSeeder extends Seeder
             'phone_number' => '0612345678',
             'email' => 'lars@gmail.com',
             'password' => bcrypt('password'),
+            'is_admin' => true
         ]);
         User::create([
             'name' => 'Pluk',
@@ -28,14 +29,16 @@ class UserSeeder extends Seeder
             'phone_number' => '0612345678',
             'email' => 'pluk@gmail.com',
             'password' => bcrypt('password'),
+            'is_admin' => true
         ]);
         User::create([
             'name' => 'Silvin',
-            'last_name' => 'van Heastrecht',
+            'last_name' => 'van Haestregt',
             'salutation' => 'Dhr.',
             'phone_number' => '0612345678',
             'email' => 'silvin@gmail.com',
             'password' => bcrypt('password'),
+            'is_admin' => true
         ]);
         User::create([
             'name' => 'Kelvin',
@@ -44,6 +47,7 @@ class UserSeeder extends Seeder
             'phone_number' => '0612345678',
             'email' => 'kelvin@gmail.com',
             'password' => bcrypt('password'),
+            'is_admin' => true
         ]);
         User::create([
             'name' => 'Lukas',
@@ -52,6 +56,7 @@ class UserSeeder extends Seeder
             'phone_number' => '0612345678',
             'email' => 'lukas@gmail.com',
             'password' => bcrypt('password'),
+            'is_admin' => true
         ]);
 
     
