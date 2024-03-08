@@ -45,7 +45,7 @@ Route::get('/plattegrond', function () {
 
 Route::get('/dashboard', function () {
     $answers = Answer::all();
-    $users = User::paginate(3);
+    $users = User::paginate(5);
     return view('dashboard')->with([
         'answers' => $answers,
         'users' => $users
