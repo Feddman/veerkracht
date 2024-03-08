@@ -15,43 +15,48 @@ class UserSeeder extends Seeder
     { 
         User::create([
             'name' => 'Lars',
-            'last_name' => 'Bezooijen',	
-            'salutation' => 'van',
+            'last_name' => 'van Bezooijen',	
+            'salutation' => 'Dhr.',
             'phone_number' => '0612345678',
             'email' => 'lars@gmail.com',
             'password' => bcrypt('password'),
+            'is_admin' => true
         ]);
         User::create([
             'name' => 'Pluk',
             'last_name' => 'Zwaal',	
-            // 'salutation' => '',
+            'salutation' => 'Dhr.',
             'phone_number' => '0612345678',
             'email' => 'pluk@gmail.com',
             'password' => bcrypt('password'),
+            'is_admin' => true
         ]);
         User::create([
             'name' => 'Silvin',
-            'last_name' => 'Heastrecht',
-            'salutation' => 'van',
+            'last_name' => 'van Haestregt',
+            'salutation' => 'Dhr.',
             'phone_number' => '0612345678',
             'email' => 'silvin@gmail.com',
             'password' => bcrypt('password'),
+            'is_admin' => true
         ]);
         User::create([
             'name' => 'Kelvin',
             'last_name' => 'Mies',
-            // 'salutation' => '',
+            'salutation' => 'Dhr.',
             'phone_number' => '0612345678',
             'email' => 'kelvin@gmail.com',
             'password' => bcrypt('password'),
+            'is_admin' => true
         ]);
         User::create([
             'name' => 'Lukas',
-            'last_name' => 'Vries',
-            'salutation' => 'de',
+            'last_name' => 'de Vries',
+            'salutation' => 'Dhr.',
             'phone_number' => '0612345678',
             'email' => 'lukas@gmail.com',
             'password' => bcrypt('password'),
+            'is_admin' => true
         ]);
 
     

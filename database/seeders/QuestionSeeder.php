@@ -35,7 +35,7 @@ class QuestionSeeder extends Seeder
         'category' => 'Lichaamfuncties'
     ]);
     Question::create([
-        'title' => 'Ik ben tevredne over mijn seksualiteit.',
+        'title' => 'Ik ben tevreden over mijn seksualiteit.',
         'category' => 'Lichaamfuncties'
     ]);
     Question::create([
@@ -53,7 +53,7 @@ class QuestionSeeder extends Seeder
         'category' => 'Mentaal welbevinden'
     ]);
     Question::create([
-        'title' => 'Ik kan mij goed concertreren.',
+        'title' => 'Ik kan mij goed concetreren.',
         'category' => 'Mentaal welbevinden'
     ]);
     Question::create([
@@ -109,7 +109,7 @@ class QuestionSeeder extends Seeder
 
     //Kwaliteit van leven
     Question::create([
-        'title' => 'Ik geniet van mijn lven.',
+        'title' => 'Ik geniet van mijn leven.',
         'category' => 'Kwaliteit van leven'
     ]);
     Question::create([
@@ -148,7 +148,7 @@ class QuestionSeeder extends Seeder
         'category' => 'Meedoen'
     ]);
     Question::create([
-        'title' => 'Andere mensen nemen mij sirieus.',
+        'title' => 'Andere mensen nemen mij serieus.',
         'category' => 'Meedoen'
     ]);
     Question::create([
@@ -156,7 +156,7 @@ class QuestionSeeder extends Seeder
         'category' => 'Meedoen'
     ]);
     Question::create([
-        'title' => 'Ik heb mensen die mij steune als dat nodig is.',
+        'title' => 'Ik heb mensen die mij steunen als dat nodig is.',
         'category' => 'Meedoen'
     ]);
     Question::create([
@@ -168,7 +168,7 @@ class QuestionSeeder extends Seeder
         'category' => 'Meedoen'
     ]);
     Question::create([
-        'title' => 'Ik ben geinterseerd in wat er in de maatschapij gebeurd.',
+        'title' => 'Ik ben geïnteresseerd in wat er in de maatschapij gebeurd.',
         'category' => 'Meedoen'
     ]);
 
