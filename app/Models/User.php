@@ -21,6 +21,9 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'last_name',
+        'salutation',
+        'phone_number',
     ];
 
     /**
@@ -42,6 +45,8 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+
+    protected $guarded = [];
 
     public function questions()
     {

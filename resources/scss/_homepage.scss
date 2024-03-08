@@ -17,6 +17,7 @@ body{
                     font-weight: 600;
                     line-height: 25.6px;
                     color: #fff;
+                    text-align: left;
                 }   
                 .banner-text{
                     font-family: 'Nunito', sans-serif;  
@@ -37,16 +38,18 @@ body{
             gap:60px;
             .body-blok1-content-links{
                 width: 50%;
+                
+            }
+            .body-blok1-content-rechts{
+                width: 50%;
                 h1{
                     font-family: 'Montserrat', sans-serif;  
                     font-size: 20px;
                     font-weight: 600;
                     line-height: 24.38px;
                     color: #000;
+                    text-align: left;
                 }
-            }
-            .body-blok1-content-rechts{
-                width: 50%;
                 p{
                     font-family: 'Nunito', sans-serif;  
                     font-size: 18px;
@@ -76,6 +79,7 @@ body{
                     font-weight: 600;
                     line-height: 24.38px;
                     color: #000;
+                    text-align: start;
                 }
                 p{
                     font-family: 'Nunito', sans-serif;  
@@ -120,19 +124,21 @@ body{
             gap:60px;
             .body-blok4-content-links{
                 width: 50%;
-                h1{
-                    font-family: 'Montserrat', sans-serif;  
-                    font-size: 20px;
-                    font-weight: 600;
-                    line-height: 24.38px;
-                    color: #000;
-                }
+                
                 img{
                     width: 100%;
                 }
             }
             .body-blok4-content-rechts{
                 width: 50%;
+                h1{
+                    font-family: 'Montserrat', sans-serif;  
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 24.38px;
+                    color: #000;
+                    text-align: left;
+                }
                 p{
                     font-family: 'Nunito', sans-serif;  
                     font-size: 18px;
@@ -154,10 +160,11 @@ body{
                 width: 50%;
                 h1{
                     font-family: 'Montserrat', sans-serif;  
-                    font-size: 18px;
+                    font-size: 20px;
                     font-weight: 600;
                     line-height: 24.38px;
                     color: #000;
+                    text-align: left;
                 }
                 img{
                     width: 100%;
@@ -178,7 +185,6 @@ body{
     }
     .body-blok6{
         padding-top: 100px;
-        padding-bottom: 100px;
         .body-blok6-content{
             display: flex;
             flex-direction: row;
@@ -188,10 +194,11 @@ body{
                 width: 50%;
                 h1{
                     font-family: 'Montserrat', sans-serif;  
-                    font-size: 18px;
+                    font-size: 20px;
                     font-weight: 600;
                     line-height: 24.38px;
                     color: #000;
+                    text-align: left;
                 }
                 p{
                     font-family: 'Nunito', sans-serif;  
@@ -209,6 +216,30 @@ body{
                 
                 }
             }
+        }
+    }
+    .body-blok7{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        h1{
+            font-family: 'Montserrat', sans-serif;  
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 24.38px;
+            color: #000;
+            padding-bottom: 50px;
+        }
+        .body-blok7-content{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            gap:50px;
+            img{
+                width: 100px;
+                height: 100px;
+            }
+            
         }
     }
 }

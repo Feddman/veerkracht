@@ -15,47 +15,128 @@
   }
 }
 
-.center-content {
-  text-align: center;
-}
+.profielCheckForm{
+  .container{
+    padding: 100px 0px;
+    text-align: center;
 
-.left-aligned {
-  text-align: left;
-}
-
-.profielcheckform {
-  padding: 100px 0px
-}
-
-.radio-label {
-  display: inline-block;
-  margin-right: 10px;
-
-  input[type="radio"] {
-      display: none;
-  }
-
-  .radio-button {
-      display: inline-block;
-      width: 20px;
-      padding: 15px;
-      border: 2px solid #ccc;
-      border-radius: 5%;
+    h1{
       text-align: center;
-      line-height: 20px;
-      cursor: pointer;
-  }
+    }
 
-  input[type="radio"]:checked + .radio-button {
-      background-color: #69B27D;
-      color: #fff;
-      border-color: #69B27D;
+    form{
+      .button-container{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        gap: 20px;
+
+        button{
+          padding: 10px 20px;
+          border-radius: 5px;
+          border: none;
+          background-color: #69B27D;
+          color: #fff;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          &:hover{
+            background-color: #69b27c50;
+          }
+        
+        }
+      }
+
+      #emailContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 20px;
+        input, select{
+          padding: 10px;
+          border-radius: 5px;
+          border: 1px solid #ccc;
+          width: 50%;
+          margin-top: 12px;
+        }
+      }
+    }
+
+    .radio-label {
+      display: inline-block;
+      margin-right: 10px;
+    
+      input[type="radio"] {
+          display: none;
+      }
+    
+      .radio-button {
+          display: inline-block;
+          width: 20px;
+          padding: 15px;
+          border: 2px solid #ccc;
+          border-radius: 5%;
+          text-align: center;
+          line-height: 20px;
+          cursor: pointer;
+      }
+    
+      input[type="radio"]:checked + .radio-button {
+          background-color: #69B27D;
+          color: #fff;
+          border-color: #69B27D;
+      }
+      .radio-button:hover {
+        background-color: #69b27c50;
+        color: #fff;
+        border-color: #69b27c50;
+      }
+    }
+    
   }
-  .radio-button:hover {
-    background-color: #69b27c50;
-    color: #fff;
-    border-color: #69b27c50;
 }
-}
+
+// .center-content {
+//   text-align: center;
+// }
+
+// .left-aligned {
+//   text-align: left;
+// }
+
+// .profielcheckform {
+//   padding: 100px 0px
+// }
+
+// .radio-label {
+//   display: inline-block;
+//   margin-right: 10px;
+
+//   input[type="radio"] {
+//       display: none;
+//   }
+
+//   .radio-button {
+//       display: inline-block;
+//       width: 20px;
+//       padding: 15px;
+//       border: 2px solid #ccc;
+//       border-radius: 5%;
+//       text-align: center;
+//       line-height: 20px;
+//       cursor: pointer;
+//   }
+
+//   input[type="radio"]:checked + .radio-button {
+//       background-color: #69B27D;
+//       color: #fff;
+//       border-color: #69B27D;
+//   }
+//   .radio-button:hover {
+//     background-color: #69b27c50;
+//     color: #fff;
+//     border-color: #69b27c50;
+//   }
+// }
 
 

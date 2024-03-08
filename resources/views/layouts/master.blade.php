@@ -14,8 +14,16 @@
             <div class="navbar">
                 <a href="/">Home</a>
                 <a href="/profielcheck">Profielcheck</a>
-                <a href="/dashboard">Dashboard</a>
-                <a href="/inloggen">Inloggen</a>
+                <a href="/plattegrond">plattegrond</a>
+                @if (Auth::check() && Auth::user()->is_admin)
+                    <a href="/dashboard">Dashboard</a>
+                @endif
+                <a href="/extra-informatie">Extra informatie</a>
+                @if (Auth::check())
+                    <a href="/logout">Uitloggen</a>
+                @else
+                    <a href="/login">Inloggen</a>
+                @endif
             </div>
         </div>
     </div>
