@@ -4,7 +4,7 @@ body{
     .banner{
         background-image: url('../../public/storage/img/banner.png');
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         .container{
             max-width: 80%;
             margin: 0 auto;
@@ -70,6 +70,9 @@ body{
             gap:60px;
             .body-blok2-content-links{
                 width: 50%;
+                img{
+                    width: 100%;
+                }
             }
             .body-blok2-content-rechts{
                 width: 50%;
@@ -158,6 +161,14 @@ body{
             gap:130px;
             .body-blok5-content-links{
                 width: 50%;
+                
+                img{
+                    width: 100%;
+                
+                }
+            }
+            .body-blok5-content-rechts{
+                width: 50%;
                 h1{
                     font-family: 'Montserrat', sans-serif;  
                     font-size: 20px;
@@ -166,13 +177,6 @@ body{
                     color: #000;
                     text-align: left;
                 }
-                img{
-                    width: 100%;
-                
-                }
-            }
-            .body-blok5-content-rechts{
-                width: 50%;
                 p{
                     font-family: 'Nunito', sans-serif;  
                     font-size: 18px;
@@ -240,6 +244,291 @@ body{
                 height: 100px;
             }
             
+        }
+    }
+}
+
+/* Stijlregels voor tablet landschap */
+@media (min-width: 768px) and (max-width: 1180px) and (orientation: landscape) {
+    body{
+        .content{
+            .banner{
+                .container{
+                    max-width: 95%;
+                    margin: 0 auto;
+                    .banner-content{
+                        width: 45%;
+                    }
+                }
+            }
+        }
+        .body-blok1{
+            .container{
+                max-width: 95%;
+                margin: 0 auto;
+            }
+        }
+        .body-blok2{
+            .container{
+                max-width: 95%;
+                margin: 0 auto;
+            }
+        }
+        .body-blok3{
+            .container{
+                max-width: 95%;
+                margin: 0 auto;
+            }
+        }
+        .body-blok4{
+            .container{
+                max-width: 95%;
+                margin: 0 auto;
+            }
+        }
+        .body-blok5{
+            .container{
+                max-width: 95%;
+                margin: 0 auto;
+            }
+        }
+        .body-blok6{
+            .container{
+                max-width: 95%;
+                margin: 0 auto;
+            }
+        }
+        .body-blok7{
+            .container{
+                max-width: 95%;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+/* Stijlregels voor tablet portret */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    body{
+        .content{
+            .banner{
+                .container{
+                    max-width: 95%;
+                    margin: 0 auto;
+                    .banner-content{
+                        width: 45%;
+                    }
+                }
+            }
+        }
+        .body-blok1{
+            .container{
+                max-width: 95%;
+                margin: 0 auto;
+                .body-blok1-content{
+                    .body-blok1-content-links{
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        .body-blok2{
+            .container{
+                max-width: 95%;
+                margin: 0 auto;
+            }
+        }
+        .body-blok3{
+            .container{
+                max-width: 95%;
+                margin: 0 auto;
+            }
+            .body-blok3-content{
+                p{
+                    width: 90%;
+                }
+            }
+        }
+        .body-blok4{
+            .container{
+                max-width: 95%;
+                margin: 0 auto;
+            }
+        }
+        .body-blok5{
+            .container{
+                max-width: 95%;
+                margin: 0 auto;
+            }
+        }
+        .body-blok6{
+            .container{
+                max-width: 95%;
+                margin: 0 auto;
+            }
+        }
+        .body-blok7{
+            .container{
+                max-width: 95%;
+                margin: 0 auto;
+            }
+            .body-blok7-content{
+                gap: 30px;
+            }
+        }
+    }
+}
+
+/* Stijlregels voor mobiel */
+@media (max-width: 767px) {
+    body{
+        .content{
+            .banner{
+                .container{
+                    max-width: 95%;
+                    margin: 0 auto;
+                    .banner-content{
+                        width: 100%;
+                        padding: 100px 0;
+                    }
+                }
+            }
+        }
+        .body-blok1{
+            padding-top: 50px;
+            .container{
+                max-width: 95%;
+                margin: 0 auto;
+                .body-blok1-content{
+                    flex-direction: column;
+                    gap: 20px;
+                    .body-blok1-content-links{
+                        width: 100%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .body-blok1-content-rechts{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .body-blok2{
+            padding-top: 50px;
+            .container{
+                max-width: 95%;
+                margin: 0 auto;
+                .body-blok2-content{
+                    flex-direction: column;
+                    gap: 20px;
+                    .body-blok2-content-links{
+                        width: 100%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .body-blok2-content-rechts{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .body-blok3{
+            padding-top: 50px;
+            .container{
+                max-width: 95%;
+                margin: 0 auto;
+                .body-blok3-content{
+                    gap: 20px;
+                    .iph-model{
+                        display: grid;
+                        grid-template-columns: 1fr 1fr 1fr;
+                        gap: 10px;
+                    }
+                    p{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .body-blok4{
+            padding-top: 50px;
+            .container{
+                max-width: 95%;
+                margin: 0 auto;
+                .body-blok4-content{
+                    flex-direction: column;
+                    gap: 20px;
+                    .body-blok4-content-links{
+                        width: 100%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .body-blok4-content-rechts{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .body-blok5{
+            padding-top: 50px;
+            .container{
+                max-width: 95%;
+                margin: 0 auto;
+                .body-blok5-content{
+                    flex-direction: column;
+                    gap: 20px;
+                    .body-blok5-content-links{
+                        width: 100%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .body-blok5-content-rechts{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .body-blok6{
+            padding-top: 50px;
+            .container{
+                max-width: 95%;
+                margin: 0 auto;
+                .body-blok6-content{
+                    flex-direction: column;
+                    gap: 20px;
+                    .body-blok6-content-links{
+                        width: 100%;
+                    }
+                    .body-blok6-content-rechts{
+                        width: 100%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        .body-blok7{
+            padding-top: 50px;
+            .container{
+                max-width: 95%;
+                margin: 0 auto;
+                .body-blok7-content{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    gap: 20px;
+                    img{
+                        width: 100px;
+                        height: 100px;
+                    }
+                }
+            }
         }
     }
 }

@@ -10,7 +10,7 @@
 <header>
     <div class="container">
         <div class="header">
-            <a href=""><img src="{{ asset('storage/img/logo.png') }}"></a>
+            <a href="/"><img src="{{ asset('storage/img/logo.png') }}"></a>
             <div class="navbar">
                 <a href="/">Home</a>
                 <a href="/profielcheck">Profielcheck</a>

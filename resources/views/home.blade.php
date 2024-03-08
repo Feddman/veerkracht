@@ -79,11 +79,12 @@
         <div class="container">
             <div class="body-blok5-content">
                 <div class="body-blok5-content-links">
-                    <h1 class="body-blok5-title">Voorzieningen en informatie</h1>
                     <img src="{{ asset('storage/img/schema.png') }}" alt="">
 
                 </div>
                 <div class="body-blok5-content-rechts">
+                    <h1 class="body-blok5-title">Voorzieningen en informatie</h1>
+
                     <p class="body-blok5-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         <br><br>
                         reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>

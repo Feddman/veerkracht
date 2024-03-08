@@ -27,3 +27,69 @@ header{
         }
     }
 }
+
+/* Stijlregels voor tablet landschap */
+@media (min-width: 768px) and (max-width: 1180px) and (orientation: landscape) {
+    header{
+        .container{
+            max-width: 95%;
+            margin: 0 auto;
+            .header{
+                flex-direction: column;
+                gap: 20px;
+            }
+            .navbar{
+                width: 100%;
+                justify-content: space-between;
+                a{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+/* Stijlregels voor tablet portret */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    header{
+        .container{
+            max-width: 95%;
+            margin: 0 auto;
+            .header{
+                flex-direction: column;
+                gap: 20px;
+            }
+            .navbar{
+                width: 100%;
+                justify-content: space-between;
+                gap: 20px;
+                a{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+/* Stijlregels voor mobiel */
+@media (max-width: 767px) {
+    header{
+        .container{
+            max-width: 97%;
+            margin: 0 auto;
+            .header{
+                flex-direction: column;
+                gap: 20px;
+            }
+            .navbar{
+                gap: 30px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            
+                a{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

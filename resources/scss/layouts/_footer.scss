@@ -71,3 +71,43 @@ footer{
         }
     }
 }
+
+/* Stijlregels voor tablet landschap */
+@media (min-width: 768px) and (max-width: 1180px) and (orientation: landscape) {
+    footer{
+        .container{
+            max-width: 90%;
+        }
+    }
+}
+
+/* Stijlregels voor tablet portret */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    footer{
+        background-color: #69B27D;
+        .container{
+            max-width: 90%;
+        }
+    }
+}
+
+/* Stijlregels voor mobiel */
+@media (max-width: 767px) {
+    footer{
+        .container{
+            max-width: 95%;
+            .contact{
+                .contact-content{
+                    flex-direction: column;
+                    align-items: start;
+                    gap: 30px;
+                    .social-icons{
+                        gap: 0px;
+                        justify-content: space-around;
+                        width: 100% ;
+                    }
+                }
+            }
+        }
+    }
+}

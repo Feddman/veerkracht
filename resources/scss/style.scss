@@ -2,7 +2,7 @@
 @import "profielcheck.scss";
 @import "faq.scss";
 @import "plattegrond.scss";
-// @import "informatie.scss";
+@import "informatie.scss";
 
 @import "results.scss";	
 @import "layouts/header.scss";
@@ -28,4 +28,24 @@ p{
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
     color: #000;
+}
+/* Stijlregels voor tablet landschap */
+@media (min-width: 768px) and (max-width: 1180px) and (orientation: landscape) {
+    .container{
+        max-width: 90%; 
+    }
+}
+
+/* Stijlregels voor tablet portret */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .container{
+        max-width: 90%; 
+    }
+}
+
+/* Stijlregels voor mobiel */
+@media (max-width: 767px) {
+    .container{
+        max-width: 95%; 
+    }
 }
