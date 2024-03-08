@@ -142,17 +142,19 @@
                 const userChevron = user.querySelector('.user__chevron');
                 let open = false;
 
-                user.addEventListener('click', () => {
-                    if (userResults.classList.contains('open-user') && open === true) {
-                        userResults.classList.remove('open-user');
-                        userChevron.classList.remove('open-chevron');
-                        open = false;
-                        console.log('close', open);
-                    } else {
-                        userResults.classList.add('open-user');
-                        userChevron.classList.add('open-chevron');
-                        console.log('open', open);
-                        open = true;
+                user.addEventListener('click', event => {
+                    if(!event.target.closest('.user__email')) {
+                        if (userResults.classList.contains('open-user') && open === true) {
+                            userResults.classList.remove('open-user');
+                            userChevron.classList.remove('open-chevron');
+                            open = false;
+                            console.log('close', open);
+                        } else {
+                            userResults.classList.add('open-user');
+                            userChevron.classList.add('open-chevron');
+                            console.log('open', open);
+                            open = true;
+                        }
                     }
                 });
             });
