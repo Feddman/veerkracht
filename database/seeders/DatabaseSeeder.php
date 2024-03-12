@@ -36,17 +36,19 @@ class DatabaseSeeder extends Seeder
         ]);
 
         for ($i = 0; $i < 10; $i++) { 
+            $gender = $faker->randomElement(['Dhr', 'Mvr']);
+
             User::create([
                 'name' => $faker->firstName,
                 'last_name' => $faker->lastName,
-                'salutation' => 'dhr',
-                'phone_number' => '999999999',
+                'salutation' => $gender,
+                'phone_number' => $faker->numerify('###-###-####'),
                 'email' => $faker->unique()->safeEmail,
                 'password' => bcrypt($faker->name)
             ]);
         }
 
-        for ($in = 1; $in < 12; $in++) { 
+        for ($in = 1; $in < 17; $in++) { 
             for ($i = 1; $i < 44; $i++) {
                 Answer::create([
                     'score' => $faker->numberBetween(1, 10),

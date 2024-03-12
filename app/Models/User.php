@@ -57,4 +57,7 @@ class User extends Authenticatable
     {
         return $this->hasMany(Answer::class);
     }
+
+    public $timestamps = true;
+
 }
