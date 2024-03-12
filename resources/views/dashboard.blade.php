@@ -12,7 +12,8 @@
                             <img class="user__chevron" src="{{ asset('storage/img/chevron.webp') }}" alt="">
                             <div class="user__info">
                                 <h2 class="user__name">{{ $user->name . ' ' . $user->last_name }}</h2>
-                                <a href="mailTo: {{ $user->email }}" class="user__email">{{ $user->email }}</a>
+                                <a class="user__email" href="mailto:{{ $user->email }}?subject=Beste%20{{ $user->name }}&body=Bedankt%20voor%20het%20invullen%20van%20de%20profielcheck%20van%20Veerkracht!%0D%0A%0D%0AHartelijk%20dank%20voor%20het%20deelnemen%20aan%20onze%20Veerkracht%20vragenlijst.%20We%20zijn%20verheugd%20om%20je%20te%20begeleiden%20op%20je%20pad%20naar%20persoonlijke%20groei%20en%20ontwikkeling.%20Op%20basis%20van%20je%20antwoorden%20hebben%20we%20een%20aantal%20workshops%20geselecteerd%20die%20perfect%20aansluiten%20bij%20jouw%20interesses%20en%20behoeften.%0D%0A%0D%0AJouw%20Aanbevolen%20Workshops:%0D%0A%0D%0A[Workshop%20Naam%201]%20-%20Deze%20workshop%20richt%20zich%20op%20[korte%20beschrijving%20van%20de%20workshop].%20We%20denken%20dat%20dit%20perfect%20bij%20je%20past%20omdat%20[reden%20gebaseerd%20op%20vragenlijstresultaten].%0D%0A%0D%0A[Workshop%20Naam%202]%20-%20Hier%20verdiepen%20we%20ons%20in%20[korte%20beschrijving%20van%20de%20workshop].%20Dit%20is%20een%20geweldige%20kans%20voor%20jou%20om%20[reden%20gebaseerd%20op%20vragenlijstresultaten].%0D%0A%0D%0A[Workshop%20Naam%203]%20-%20Met%20een%20focus%20op%20[korte%20beschrijving%20van%20de%20workshop],%20zal%20deze%20sessie%20je%20helpen%20om%20[reden%20gebaseerd%20op%20vragenlijstresultaten].%0D%0A%0D%0A">{{ $user->email }}</a>
+
                             </div>
                             <div class="user__averages">
                                 <div class="user__lichaamfuncties user__average">
