@@ -11,7 +11,8 @@
                         <div class="user__top">
                             <img class="user__chevron" src="{{ asset('storage/img/chevron.webp') }}" alt="">
                             <div class="user__info">
-                                <h2 class="user__name">{{ $user->name . ' ' . $user->last_name }}</h2>
+                                <h2 class="user__name">{{ $user->salutation . ' ' . $user->name . ' ' . $user->last_name }}</h2>
+                                <p class="user__phone">{{ $user->phone_number }}</p>
                                 <a href="mailTo: {{ $user->email }}" class="user__email">{{ $user->email }}</a>
                             </div>
                             <div class="user__averages">
