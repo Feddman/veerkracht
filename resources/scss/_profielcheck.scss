@@ -17,7 +17,7 @@
 
 .profielCheckForm{
   .container{
-    padding: 100px 0px;
+    padding: 105px 0px;
     text-align: center;
 
     h1{
@@ -25,6 +25,13 @@
     }
 
     form{
+      .question-container{
+        p{
+          margin-bottom: 15px;
+          margin-top: 5px;
+        }
+      }
+
       .button-container{
         display: flex;
         justify-content: center;
@@ -93,6 +100,45 @@
       }
     }
     
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1180px) and (orientation: landscape) {
+  .profielCheckForm{
+    .container{
+      .radio-label {      
+        .radio-button {
+            display: inline-block;
+            width: 20px;
+            padding: 10px;
+            border: 2px solid #ccc;
+            border-radius: 5%;
+            text-align: center;
+            line-height: 20px;
+            cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+// now make a media query for a smaller screen
+@media (max-width: 767px) {
+  .profielCheckForm{
+    .container{
+      .radio-label {      
+        .radio-button {
+            display: inline-block;
+            width: 20px;
+            padding: 5px;
+            border: 2px solid #ccc;
+            border-radius: 5%;
+            text-align: center;
+            line-height: 20px;
+            cursor: pointer;
+        }
+      }
+    }
   }
 }
 

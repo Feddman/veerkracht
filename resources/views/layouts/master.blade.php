@@ -19,11 +19,6 @@
                     <a href="/dashboard">Dashboard</a>
                 @endif
                 <a href="/extra-informatie">Extra informatie</a>
-                @if (Auth::check())
-                    <a href="/logout">Uitloggen</a>
-                @else
-                    <a href="/login">Inloggen</a>
-                @endif
             </div>
         </div>
     </div>
