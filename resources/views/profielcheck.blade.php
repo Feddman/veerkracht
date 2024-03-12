@@ -45,7 +45,7 @@
     </div>
 </div>
 
-<section class="profielchecktop">
+{{-- <section class="profielchecktop">
     <div class="container">
         <div class="profielcheck-page">
             <div class="profielcheck-two-column">
@@ -59,62 +59,7 @@
             </div>
         </div>
     </div>
-</section>
-
-{{-- <script>
-    var currentQuestion = 0;
-    var totalQuestions = {{ count($questions) }};
-
-    function nextQuestion() {
-        var currentDiv = document.getElementById('question' + currentQuestion);
-        var radioButtons = currentDiv.querySelectorAll('input[type="radio"]');
-        var isChecked = false;
-        
-        // Controleer of een van de radio-buttons is geselecteerd
-        for (var i = 0; i < radioButtons.length; i++) {
-            if (radioButtons[i].checked) {
-                isChecked = true;
-                break;
-            }
-        }
-        
-        // Als er geen antwoord is geselecteerd, doe niets
-        if (!isChecked) {
-            alert("Selecteer alstublieft een antwoord voordat u verder gaat.");
-            return;
-        }
-        
-        // Verberg de huidige vraag
-        currentDiv.style.display = 'none';
-        
-        // Ga naar de volgende vraag
-        currentQuestion++;
-        
-        if (currentQuestion < totalQuestions) {
-            var nextDiv = document.getElementById('question' + currentQuestion);
-            nextDiv.style.display = 'block';
-        } else {
-            document.getElementById('submitButton').style.display = 'block';
-            document.getElementById('nextButton').style.display = 'none';
-            document.getElementById('previousButton').style.display = 'none';
-        }
-    }
-
-    function previousQuestion() {
-        if (currentQuestion > 0) {
-            var currentDiv = document.getElementById('question' + currentQuestion);
-            currentDiv.style.display = 'none';
-
-            currentQuestion--;
-
-            var prevDiv = document.getElementById('question' + currentQuestion);
-            prevDiv.style.display = 'block';
-
-            document.getElementById('submitButton').style.display = 'none';
-        }
-    }
-</script> --}}
-
+</section> --}}
 
 <script>
     var currentQuestion = 0;
