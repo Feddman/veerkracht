@@ -79,7 +79,7 @@ class QuestionSeeder extends Seeder
 
     //Zingeving
     Question::create([
-        'title' => 'Ik heb een zinvol lezen.',
+        'title' => 'Ik heb een zinvol leven.',
         'category' => 'Zingeving'
     ]);
     Question::create([
