@@ -2,15 +2,22 @@
 
 @section('content')
 
-<div class="container">
-    <div class="plattegrond">
-        <div>
-            <h1>Plattegrond</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti architecto illum eum fugit optio voluptate, quas rerum culpa recusandae amet explicabo repellendus accusamus blanditiis dolore placeat hic dolores unde. Tenetur.
-                <br><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde dolore eius error alias ut quibusdam dolor doloribus itaque eligendi non aliquid, suscipit et, optio neque dolorem reiciendis similique nulla sint! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, odit voluptate veniam, amet eaque labore inventore, soluta maxime dolores possimus mollitia! Incidunt dolorem recusandae debitis cumque sunt voluptatibus nam harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae id animi quibusdam ut sapiente nemo obcaecati eos labore iure ea, neque earum odit repellendus minus ratione tempore dolorum. Labore, nihil!
-            </p>
+
+<div class="body-blok1 custom-padding-bottom-50">
+    <div class="container">
+        <div class="body-blok1-content">
+            
+            <div class="body-blok1-content-rechts">
+                <h1 class="body-blok1-title">De plattegrond</h1>
+
+                <p class="body-blok1-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <br><br>
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="body-blok1-content-links"  style="text-align: center">
+                <img class="iph" src="{{ asset('storage/img/plattegrond.png') }}" alt="">
+            </div>
         </div>
-        <img src="{{ asset('storage/img/plattegrond.png') }}" alt="">
     </div>
 </div>
 
