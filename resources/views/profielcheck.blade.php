@@ -123,10 +123,6 @@
                 document.getElementById('question' + currentQuestion).style.display = 'block';
                 document.getElementById('previousButton').style.display = 'block'; // Zorg ervoor dat de 'Vorige vraag' knop zichtbaar blijft
             }
-
-            if (currentQuestion === 0) {
-                document.getElementById('previousButton').style.display = 'none'; // Verberg de 'Vorige vraag' knop als we terug zijn bij de eerste vraag
-            }
         }
     }
 </script>
