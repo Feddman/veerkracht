@@ -5,9 +5,15 @@
     <div class="banner">
         <div class="container">
             <div class="banner-content">
-                <h1 class="banner-title">Natuurlijke zorg,<br>
-                    op maat gemaakt voor jouw! </h1>
-                <p class="banner-text">Ontdek jouw perfecte zorgpakket met onze slimme vragenlijst. Als jouw persoonlijke compagnon begeleiden we je naar de ideale zorginstellingen die passen bij jouw unieke behoeften. Welkom bij een zorgervaring die echt om jou draait.</p>
+                <div class="banner-content-left">
+                    <h1 class="banner-title">Natuurlijke zorg,<br>
+                        op maat gemaakt voor jouw! </h1>
+                    <p class="banner-text">Ontdek jouw perfecte zorgpakket met onze slimme vragenlijst. Als jouw persoonlijke compagnon begeleiden we je naar de ideale zorginstellingen die passen bij jouw unieke behoeften. Welkom bij een zorgervaring die echt om jou draait.</p>
+                    <a href="/profielcheck"><button>Profielcheck</button></a>
+                </div>
+                <div class="banner-content-right">
+                    
+                </div>
             </div>
         </div>
     </div>

@@ -10,21 +10,45 @@ body{
             margin: 0 auto;
             .banner-content{
                 padding: 150px 0;
-                width: 32%;
-                .banner-title{
-                    font-family: 'Montserrat', sans-serif;  
-                    font-size: 21px;
-                    font-weight: 600;
-                    line-height: 25.6px;
-                    color: #fff;
-                    text-align: left;
-                }   
-                .banner-text{
-                    font-family: 'Nunito', sans-serif;  
-                    font-size: 16px;
-                    font-weight: 400;
-                    line-height: 21.82px;
-                    color: #fff;
+                width: 100%;
+                display: flex;
+                .banner-content-left{
+                    width: 50%;
+                    .banner-title{
+                        font-family: 'Montserrat', sans-serif;  
+                        font-size: 21px;
+                        font-weight: 600;
+                        line-height: 25.6px;
+                        color: #fff;
+                        text-align: left;
+                    }   
+                    .banner-text{
+                        font-family: 'Nunito', sans-serif;  
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 21.82px;
+                        color: #fff;
+                        width: 75%;
+                        padding-top: 10px;
+                    }
+                    button{
+                        padding: 10px 20px;
+                        font-size: 21px;
+                        font-weight: 600;
+                        color: white;
+                        background-color: #02D7BF;
+                        border: 1px solid black;
+                        cursor: pointer;
+                        border-radius: 5px;
+                        margin-top: 20px;
+                    }
+                }
+                .banner-content-right{
+                    width: 50%;
+                    align-self: center;
+                    display: flex;
+                    justify-content: center;
+                    
                 }
             }
         }
@@ -316,7 +340,7 @@ body{
                     max-width: 95%;
                     margin: 0 auto;
                     .banner-content{
-                        width: 45%;
+                        width: 100%;
                     }
                 }
             }
