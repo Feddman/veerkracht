@@ -1,7 +1,16 @@
 {
+  "public/storage/img/banner.png": {
+    "file": "assets/banner-iEfhHaHm.png",
+    "src": "public/storage/img/banner.png"
+  },
   "resources/css/app.css": {
     "file": "assets/app-irW2xl4b.css",
     "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/css/style.css": {
+    "file": "assets/style-D7MFSxGn.css",
+    "src": "resources/css/style.css",
     "isEntry": true
   },
   "resources/js/app.js": {
